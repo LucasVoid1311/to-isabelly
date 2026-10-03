@@ -66,7 +66,7 @@ def exibir_animacao():
             time.sleep(0.4)
             
     except KeyboardInterrupt:
-        print("\n\nAnimação encerrada.\nSeja minha namorada.")
+        print("\n\nAnimação encerrada.\nEspero que tenha gostado.")
 
 if __name__ == "__main__":
     exibir_animacao()
