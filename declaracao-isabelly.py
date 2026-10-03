@@ -34,7 +34,6 @@ def exibir_animacao():
     efeito_digitacao(arte_texto)
     sys.stdout.write(COR_RESET)
     
-    # Desenho corrigido do coração em ASCII
     coracao = """
         ██████╗     ██████╗
       ██████████╗ ██████████╗
@@ -67,7 +66,7 @@ def exibir_animacao():
             time.sleep(0.4)
             
     except KeyboardInterrupt:
-        print("\n\nAnimação encerrada. Espero que a Isabelly adore! ❤️")
+        print("\n\nAnimação encerrada.\nSeja minha namorada.")
 
 if __name__ == "__main__":
     exibir_animacao()
